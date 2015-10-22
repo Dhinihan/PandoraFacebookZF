@@ -19,6 +19,7 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": ">=2.1.5",
+        "facebook/php-sdk-v4": "5.1.*"
     },
     "autoload": {
         "psr-0": {
