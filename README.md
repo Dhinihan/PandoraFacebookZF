@@ -27,7 +27,7 @@ Para definir a configuração do *Facebook PHP SDK* é recomendado criar um arqu
 
 O campo para a configuração é *facebook-zf* e eis um exemplo de um arquivo de configuração:
 
-```
+```php
 <?php
 return array(
     'facebook-zf' => array(
