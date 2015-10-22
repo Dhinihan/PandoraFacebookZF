@@ -1,0 +1,31 @@
+{
+    "name": "pandora-una/pandora-facebook",
+    "description": "ZF Factory for Facebook SDK",
+    "type": "library",   
+    "keywords": [
+        "framework",
+        "zf2",
+        "pandora",
+        "facebook"
+    ],
+    "homepage": "http://www.pandora.com.br/",
+    "authors": [
+        {
+            "name": "Vinícius Nascimento Silva",
+            "email": "vinicius.silva@pandora.com.br",
+            "homepage": "http://www.pandora.com.br/"
+        }
+    ],    
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": ">=2.1.5",
+    },
+    "autoload": {
+        "psr-0": {
+            "FacebookZF": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
